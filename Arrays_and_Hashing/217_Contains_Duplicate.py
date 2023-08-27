@@ -1,7 +1,7 @@
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         """
-        Time: O(n)
+        Time: O(n), where n is the length of nums
         Space: O(n)
         """
 

@@ -1,7 +1,7 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         """
-        Time: O(n)
+        Time: O(n), where n is the length of nums
         Space: O(n)
         """
 
