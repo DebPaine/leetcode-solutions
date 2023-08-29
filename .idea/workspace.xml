@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8049859c-4ee3-402c-99fa-85b237fd8eb1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Arrays_and_Hashing/1_Two_Sum.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays_and_Hashing/217_Contains_Duplicate.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays_and_Hashing/242_Valid_Anagram.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays_and_Hashing/49_Group_Anagrams.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays_and_Hashing/238_Product_of_Array_Except_Self.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,11 +64,11 @@
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/debma/Documents/workshop",
+    "last_opened_file_path": "C:/Users/debma/Documents/workshop/leetcode-solutions",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "settings.editor.selected.configurable": "com.jetbrains.python.black.configuration.BlackFormatterConfigurable"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
