@@ -1,7 +1,7 @@
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         """
-        Time: O(n)
+        Time: O(n), where n is the length of s
         Space: O(1)
         """
         # Remove non alphabets from string and convert string to lowercase
