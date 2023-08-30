@@ -1,5 +1,9 @@
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
+        """
+        Time: O(9**2) ~= O(1), since size of the board will always be 9x9
+        Space: O(9**2) ~= O(1)
+        """
         subbox = {}
         for i in range(9):
             row_set = set()
