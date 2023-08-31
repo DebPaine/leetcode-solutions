@@ -4,13 +4,12 @@ class Solution:
         Time: O(n**2) + O(nlogn) ~= O(n**2), since we first sort nums and then use nested loops to iterate over it
         Space: O(n)
         """
-        output = []
-
         # Sort nums so that we can use two pointers algorithm
         nums.sort()
+        output = []
 
         for i, num in enumerate(nums):
-            # We don't have to add the duplicate nums we find when i==0 since we can add the first set of nums if they add up to 0, for the next set we can skip it
+            # If the current num is the same as the previous num, then we would have the same set of triplet again. This is because we would have already gotten all the triplet for the same num, so no point in iterating using it as the first element again.
             if i > 0 and nums[i] == nums[i - 1]:
                 continue
 
@@ -25,6 +24,7 @@ class Solution:
                     output.append([num, nums[left], nums[right]])
                     left += 1
                     right -= 1
+                    # We now check if within the inner loop, the previous left and left and previous right and right values are same or not. If they are same, then we move left +1 or/and right -1
                     while left < right and nums[left - 1] == nums[left]:
                         left += 1
                     while left < right and nums[right] == nums[right + 1]:
